@@ -5,17 +5,17 @@ $(document).ready(function () {
     var currentURL
     var pictures = [
         {
-            URL: "https://imgur.com/L2BB78a"
+            URL: "https://i.imgur.com/L2BB78a.jpg"
         }, {
-            URL: "https://imgur.com/3jxw671"
+            URL: "https://i.imgur.com/3jxw671.jpg"
         }, {
-            URL: "https://imgur.com/Mk4L4FD"
+            URL: "https://i.imgur.com/Mk4L4FD.jpg"
         }, {
-            URL: "https://imgur.com/G4CNSNk"
+            URL: "https://i.imgur.com/G4CNSNk.jpg"
         }, {
-            URL: "https://imgur.com/x17Uhf0"
+            URL: "https://i.imgur.com/x17Uhf0.jpg"
         }, {
-            URL: "https://imgur.com/KAyr6pB"
+            URL: "https://i.imgur.com/KAyr6pB.jpg"
         }
     ]
 
