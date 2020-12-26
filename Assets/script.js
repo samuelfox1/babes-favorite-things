@@ -120,5 +120,11 @@ $(document).ready(function () {
         event.preventDefault()
         loadNew()
     })
+
+    $(document).on('click', '#pic-button', function (event) {
+        event.preventDefault(event)
+        loadNew()
+    })
+
 })
 
