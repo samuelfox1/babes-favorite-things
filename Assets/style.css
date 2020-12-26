@@ -1,0 +1,11 @@
+body {
+    background-color: aquamarine;
+    margin:1rem auto;
+    text-align:center;
+    justify-content: center;
+    width: 90%;
+}
+
+nav{
+    background-color: orange;
+}
