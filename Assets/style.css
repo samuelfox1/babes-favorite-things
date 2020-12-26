@@ -9,8 +9,13 @@ body {
 nav{
     margin: 1rem 0 0 0;
     background-color: rgb(199, 130, 3);
+    border-radius: .75rem;
 }
 
 button{
     margin: 1rem;
+}
+
+img{
+    border-radius: .75rem;
 }
