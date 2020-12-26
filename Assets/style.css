@@ -1,11 +1,16 @@
 body {
-    background-color: aquamarine;
-    margin:1rem auto;
+    background-color: rgb(2, 92, 62);
+    margin:0 auto;
     text-align:center;
     justify-content: center;
     width: 90%;
 }
 
 nav{
-    background-color: orange;
+    margin: 1rem 0 0 0;
+    background-color: rgb(199, 130, 3);
+}
+
+button{
+    margin: 1rem;
 }
