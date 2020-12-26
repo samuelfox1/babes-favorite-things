@@ -3,6 +3,7 @@ $(document).ready(function () {
     console.log('linked!')
 
     var currentURL
+    var history = []
     var pictures = [
         {
             URL: "https://i.imgur.com/L2BB78a.jpg"
@@ -278,6 +279,16 @@ $(document).ready(function () {
             URL: "https://i.imgur.com/wU4jmUd.jpg"
         }, {
             URL: "https://i.imgur.com/8KVncf3.jpg"
+        }, {
+            URL: "https://i.imgur.com/1USodsj.jpg"
+        }, {
+            URL: "https://i.imgur.com/VMCrDJM.jpg"
+            // }, {
+            //     URL: ""
+            // }, {
+            //     URL: ""
+            // }, {
+            //     URL: ""
         }
     ]
 
@@ -302,6 +313,15 @@ $(document).ready(function () {
         currentURL = pictures[i].URL
         $('#new-pic').attr('src', currentURL)
         localStorage.setItem('babes-favorite-things', currentURL)
+        history.push(i)
+    }
+
+    function loadLast() {
+        history.pop()
+        i = history[history.length - 1]
+        currentURL = pictures[i].URL
+        $('#new-pic').attr('src', currentURL)
+        localStorage.setItem('babes-favorite-things', currentURL)
     }
 
     $(document).on('click', '#new-pic', function (event) {
@@ -312,6 +332,11 @@ $(document).ready(function () {
     $(document).on('click', '#pic-button', function (event) {
         event.preventDefault(event)
         loadNew()
+    })
+
+    $(document).on('click', '#undo-button', function (event) {
+        event.preventDefault(event)
+        loadLast()
     })
 
 })
