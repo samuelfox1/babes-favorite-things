@@ -1,3 +1,3 @@
-# babes-favorite-things
+# mo-jito
 
-https://samuelfox1.github.io/babes-favorite-things/
+https://samuelfox1.github.io/mo-jito/
